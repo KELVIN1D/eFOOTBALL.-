@@ -3,8 +3,8 @@
 display: flex;
 
 }
-.conteudo{
-e
+.cartao{
+ 
 background-color: ;
 margin: 1rem 1rem;
 flex-grow: 1;
@@ -13,5 +13,11 @@ text-align:center ;
 }
 .body{
 background-image: url(./estilo.css);
+
+}
+.cartao p{
+font-size: ;
+
+
 
 }
