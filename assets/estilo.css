@@ -13,7 +13,9 @@ text-align:center ;
 }
 body{
 background-image: url("../bg.jpeg");
-background-repeat:0 ;
+background-repeat:no-repeat ;
+
+
 }
 .cartao p{
 font-size:28px ;
