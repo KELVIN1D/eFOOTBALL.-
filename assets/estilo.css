@@ -14,7 +14,7 @@ text-align:center ;
 body{
 background-image: url("../bg.jpeg");
 background-repeat:no-repeat ;
-
+background-size: contain;
 
 }
 .cartao p{
