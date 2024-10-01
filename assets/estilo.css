@@ -48,7 +48,7 @@ font-size:16px ;
 
 .cartao:hover   .cartao--conteudo{
 background-color:blue ;
-transform: rotate(180deg);
+transform: rotate(60deg);
 
 }
 .cartao--pergunta,  .cartao--resposta{
