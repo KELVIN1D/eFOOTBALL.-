@@ -35,3 +35,38 @@ font-size:16px ;
 
 
 }
+
+
+.cartao--conteudo{
+
+
+
+
+
+
+}
+
+.cartao:hover   .cartao--conteudo{
+background-color:blue ;
+transform: rotate(180deg);
+
+}
+.cartao--pergunta,  .cartao--resposta{
+    backface-visibility: hidden;
+
+
+}
+.cartao--pergunta{
+transform: rotate(180deg);
+
+}
+
+
+
+
+
+
+
+
+
+
