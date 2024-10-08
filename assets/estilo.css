@@ -1,46 +1,51 @@
-.conteudo{
-display: flex;
-flex-wrap: wrap;
+.conteudo {
+    display: flex;
+    flex-wrap: wrap;
 
 
 
 }
-.cartao{
- 
-background-color: rgba(254, 254, 254, 0.531);
-margin: 1rem 1rem;
-flex-grow: 1;
-flex-basis:calc(33%-6rem ) ;
-text-align:center ;
-border-radius: 10px;
-}
-body{
-background-image: url("../bg.jpeg");
-background-repeat:no-repeat ;
-background-size: contain;
 
-}
-.cartao p{
-font-size: 40px ;
-margin-top: 1rem;
-padding: 2rem;
-}
-footer{
-background-color:black;
-color:black;
-width: 600px;
-height: 2rem;
-position:fixed;
-bottom:0;
-text-align:center ;
-align-content:center ;
-font: size 16px; ;
+.cartao {
 
+    background-color: rgba(254, 254, 254, 0.531);
+    margin: 1rem 1rem;
+    flex-grow: 1;
+    flex-basis: calc(33%-6rem);
+    text-align: center;
+    border-radius: 10px;
+}
+
+body {
+    background-image: url("../bg.jpeg");
+    background-repeat: no-repeat;
+    background-size: contain;
 
 }
 
+.cartao p {
+    font-size: 40px;
+    margin-top: 1rem;
+    padding: 2rem;
+}
 
-.cartao--conteudo{
+footer {
+    background-color: black;
+    color: black;
+    width: 600px;
+    height: 2rem;
+    position: fixed;
+    bottom: 0;
+    text-align: center;
+    align-content: center;
+    font: size 16px;
+    ;
+
+
+}
+
+
+.cartao--conteudo {
     background-color: black;
     transform-style: preserve-3d;
     transition: transform 300ms ease-in-out;
@@ -49,31 +54,25 @@ font: size 16px; ;
 
 }
 
-.cartao:hover .cartao--conteudo{
-background-color:blue ;
-transform: rotateY(180deg);
+.cartao:hover .cartao--conteudo {
+    background-color: blue;
+    transform: rotateY(180deg);
 
 }
-.cartao--pergunta,  .cartao--resposta{
+
+.cartao--pergunta,.cartao--resposta {
     backface-visibility: hidden;
 
 
 }
-.cartao--resposta{
-transform: rotateY(180deg);
+
+.cartao--resposta {
+    transform: rotateY(180deg);
 
 }
 
-.cartao p{
+.cartao p {
     font-size: 28px;
     margin-top: 1rem;
     padding: 2rem;
 }
-
-
-
-
-
-
-
-
