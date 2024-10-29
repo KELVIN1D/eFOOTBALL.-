@@ -11,8 +11,8 @@ function criaCartao(pergunta, resposta){
     
     `
     console.log(cartao)
-    conteudo.appendChild(cartao)
 
+let respotaEstaVisivel =false
     function viraCartao(){
         repostaEstaVisivel = !repostaEstaVisivel
         cartao.classList.toggle('active' , respotaEstaVisivel)
