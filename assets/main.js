@@ -13,10 +13,12 @@ function criaCartao(pergunta, resposta){
     console.log(cartao)
     conteudo.appendChild(cartao)
 
+    function viraCartao(){
+        repostaEstaVisivel = !repostaEstaVisivel
+        cartao.classList.toggle('active' , respotaEstaVisivel)
+
+    }
+    cartao.addEventListener('click' , viraCartao)
     
-
-
-
-
-
+    conteudo.appendChild(cartao)
 }
