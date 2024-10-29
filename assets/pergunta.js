@@ -6,20 +6,20 @@ criaCartao{
     "Como chutar colocado"
     "Arraste o botão de chute para baixo"
 }
-criaCartao{
+criaCartao( 
     "Como fazer super chut"
     "Arraste o botão de chute para esquerda ou direita"
-}
-criaCartao{
+)
+criaCartao( 
     "Quem é o melhor jogador"
     "Neymar"
-}
-criaCartao{
+)
+criaCartao(
     "Como bater escanteio"
     "Deslize o dedo na tela para onde quer que a bola vá "
-}
-criaCartao{
+)
+criaCartao( 
 
     "Como bater falta"
     "Deslize o dedo em direção ao gol"
-}
+)
