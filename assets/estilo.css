@@ -1,4 +1,4 @@
-.conteudo {
+#conteudo {
     display: flex;
     flex-wrap: wrap;
 
@@ -54,7 +54,7 @@ footer {
 
 }
 
-.cartao:hover .cartao--conteudo {
+.cartao.active .cartao--conteudo {
     background-color: blue;
     transform: rotateY(180deg);
 
