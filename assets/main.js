@@ -12,10 +12,10 @@ function criaCartao(pergunta, resposta){
     `
     console.log(cartao)
 
-let respotaEstaVisivel =false
+let respostaEstaVisivel =false
     function viraCartao(){
-        repostaEstaVisivel = !repostaEstaVisivel
-        cartao.classList.toggle('active' , respotaEstaVisivel)
+        respostaEstaVisivel = !respostaEstaVisivel
+        cartao.classList.toggle('active' , respostaEstaVisivel)
 
     }
     cartao.addEventListener('click' , viraCartao)
